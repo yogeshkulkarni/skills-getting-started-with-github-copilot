@@ -38,8 +38,8 @@ document.addEventListener("DOMContentLoaded", () => {
         option.value = name;
         option.textContent = name;
         activitySelect.appendChild(option);
-        });
         
+        participantsHTML = "";
         // Build participants list with delete icons
         details.participants.forEach(participant => {
           participantsHTML += `<li class="participant-item">
